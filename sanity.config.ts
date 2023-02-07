@@ -1,9 +1,8 @@
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
-//import {googleMapsInput} from '@sanity/google-maps-input'
 import {schemaTypes} from './schemas'
-
+import {colorInput} from "@sanity/color-input"
 export default defineConfig({
   name: 'default',
   title: 'portfolioNext',
@@ -14,7 +13,7 @@ export default defineConfig({
   plugins: [
     deskTool(),
     visionTool(),
-    //googleMapsInput(),
+    colorInput(),
   ],
 
   schema: {

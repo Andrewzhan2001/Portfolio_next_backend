@@ -7,12 +7,17 @@ import screening from './screening'
 import plotSummary from './plotSummary'
 import plotSummaries from './plotSummaries'
 
+import waterlooCourse from './waterlooCourse'
+
 export const schemaTypes = [
   // Document types
   movie,
   person,
   screening,
+  waterlooCourse,
 
+
+  
   // Other types
   blockContent,
   plotSummary,
