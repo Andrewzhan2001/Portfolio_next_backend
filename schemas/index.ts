@@ -8,16 +8,16 @@ import plotSummary from './plotSummary'
 import plotSummaries from './plotSummaries'
 
 import waterlooCourse from './waterlooCourse'
-
+import laurierCourse from './laurierCourse'
 export const schemaTypes = [
   // Document types
   movie,
   person,
   screening,
   waterlooCourse,
+  laurierCourse,
 
 
-  
   // Other types
   blockContent,
   plotSummary,
