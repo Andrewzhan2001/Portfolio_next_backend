@@ -10,6 +10,7 @@ import plotSummaries from './plotSummaries'
 import waterlooCourse from './waterlooCourse'
 import laurierCourse from './laurierCourse'
 import Work from './Work'
+import Skill from './Skill'
 export const schemaTypes = [
   // Document types
   movie,
@@ -18,7 +19,7 @@ export const schemaTypes = [
   waterlooCourse,
   laurierCourse,
   Work,
-
+  Skill,
   // Other types
   blockContent,
   plotSummary,
