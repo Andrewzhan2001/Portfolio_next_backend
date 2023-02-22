@@ -13,6 +13,7 @@ import Work from './Work'
 import Skill from './Skill'
 import Projects from './Projects'
 import Resume from './Resume'
+import Contact from './Contact'
 export const schemaTypes = [
   // Document types
   movie,
@@ -24,7 +25,7 @@ export const schemaTypes = [
   Skill,
   Projects,
   Resume,
-  
+  Contact,
   // Other types
   blockContent,
   plotSummary,

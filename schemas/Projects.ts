@@ -49,7 +49,12 @@ export default defineType({
       type: 'url',
     }),
     defineField({
-      name: 'url',
+      name: 'website',
+      title: 'Website Link',
+      type: 'url',
+    }),
+    defineField({
+      name: 'youtube',
       title: 'Youtube URL',
       type: 'url',
     }),
