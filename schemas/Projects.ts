@@ -17,6 +17,7 @@ export default defineType({
       name: 'title',
       title: 'Project Title',
       type: 'string',
+      validation: Rule => Rule.required()
     }),
     defineField({
       name: 'technology',
@@ -25,17 +26,20 @@ export default defineType({
       of: [{
         type: 'string'
       }],
+      validation: Rule => Rule.required()
     }),
     defineField({
       name: 'description',
       title: 'Project Description',
       type: 'string',
+      validation: Rule => Rule.required()
     }),
     defineField({
       name: 'details',
       title: 'Project Details',
       type: 'array',
       of: [{type: 'block'}],
+      validation: Rule => Rule.required()
     }),
     defineField({
       name: 'color',
@@ -47,6 +51,7 @@ export default defineType({
       name: 'github',
       title: 'Github Link',
       type: 'url',
+      validation: Rule => Rule.required()
     }),
     defineField({
       name: 'website',
